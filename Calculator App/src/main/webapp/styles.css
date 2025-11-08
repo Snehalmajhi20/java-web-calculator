@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+.favicon{
+    display: flex;
+}
+#faviconimg{
+    width: 100px;
+}
+#welcometitle{
+    margin-top: 30px;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* .result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2c3e50;
+} */
